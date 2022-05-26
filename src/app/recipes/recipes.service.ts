@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import { Injectable } from '@angular/core';
-import { Recipe } from './recipe.model';
+import { Recipe } from '../recipes/recipes.model';
 
 @Injectable({
   providedIn: 'root',
