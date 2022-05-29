@@ -30,6 +30,7 @@ export class RecipeDetailsPage implements OnInit {
       this.loadedRecipe = this.recipeService.getRecipe(recipeId);
     });
   }
+
   onDelete() {
     this.alertCtrl
       .create({

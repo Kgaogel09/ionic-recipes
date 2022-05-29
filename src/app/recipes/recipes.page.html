@@ -5,13 +5,10 @@
 </ion-header>
 
 <ion-content>
-  <ion-list *ngIf="recipes.length > 0">
+  <ion-list>
     <app-recipe-item
       *ngFor="let recipe of recipes"
       [recipeItem]="recipe"
     ></app-recipe-item>
   </ion-list>
-  <ion-text *ngIf="recipes.length <= 0">
-    <p>No recipes available</p>
-  </ion-text>
 </ion-content>
